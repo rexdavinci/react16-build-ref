@@ -1,1 +1,0 @@
-{"version":3,"file":"main.css","sources":["webpack:///./src/main.css"],"sourcesContent":["\n.nameColor {\n  color: green;\n}\n\n.titleColor {\n  color: blue;\n}"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;","sourceRoot":""}
