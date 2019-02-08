@@ -1,0 +1,44 @@
+{
+  "name": "react16-build-ref",
+  "version": "1.0.0",
+  "description": "https://www.valentinog.com/blog/webpack-tutorial/",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev-bundle": "webpack -wd",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexdavinci/react16-build-ref.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexdavinci/react16-build-ref/issues"
+  },
+  "homepage": "https://github.com/rexdavinci/react16-build-ref#readme",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "react-test-render": "^1.1.1"
+  }
+}
